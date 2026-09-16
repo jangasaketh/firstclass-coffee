@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>First Class | Dosa Bar All Day</title>
+  <meta name="description" content="First Class - Dosa Bar All Day. South Indian breakfast favourites served fresh.">
+  <style>
+    :root{--red:#e31d1a;--dark:#171717;--cream:#fffaf5;--muted:#6b6b6b}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--dark);background:#fff}
+    nav{position:sticky;top:0;background:rgba(255,255,255,.96);border-bottom:1px solid #eee;z-index:10}
+    .nav{max-width:1100px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{font-weight:900;color:var(--red);font-size:22px;text-transform:uppercase}
+    .links a{color:var(--dark);text-decoration:none;margin-left:18px;font-size:14px}
+    .hero{min-height:72vh;background:var(--cream);display:grid;place-items:center;text-align:center;padding:70px 22px}
+    .hero-inner{max-width:850px}
+    .logo-placeholder{display:inline-block;background:var(--red);color:#fff;border-radius:12px;padding:18px 26px;margin-bottom:24px;box-shadow:0 10px 30px #0001}
+    .logo-placeholder strong{display:block;font-size:42px;line-height:.9;text-transform:uppercase}
+    .logo-placeholder span{display:block;margin-top:8px;font-weight:700;letter-spacing:2px}
+    h1{font-size:clamp(40px,7vw,76px);margin:8px 0 14px;letter-spacing:-2px}
+    .hero p{font-size:19px;color:var(--muted);line-height:1.6}
+    .btn{display:inline-block;margin-top:18px;padding:13px 22px;background:var(--red);color:#fff;text-decoration:none;border-radius:999px;font-weight:700}
+    section{padding:72px 22px}.wrap{max-width:1100px;margin:auto}
+    .eyebrow{color:var(--red);font-weight:800;text-transform:uppercase;letter-spacing:2px;font-size:12px}
+    h2{font-size:36px;margin:8px 0 28px}
+    .blank{min-height:110px;border:1px dashed #ddd;border-radius:14px;background:#fafafa}
+    .menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+    .dish{border:1px solid #eee;border-radius:14px;padding:20px;display:flex;justify-content:space-between;gap:16px}
+    .dish h3{margin:0 0 7px;font-size:17px}.dish p{margin:0;color:var(--muted);font-size:13px;line-height:1.5}
+    .price{color:var(--red);font-weight:800;white-space:nowrap}
+    .alt{background:var(--cream)}
+    .info{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+    .card{background:#fff;border:1px solid #eee;border-radius:14px;padding:22px}
+    footer{background:var(--dark);color:#fff;text-align:center;padding:34px 22px}
+    footer p{color:#bbb;margin:7px}
+    @media(max-width:650px){.links{display:none}.logo-placeholder strong{font-size:32px}}
+  </style>
+</head>
+<body>
+<nav><div class="nav"><div class="brand">First Class</div><div class="links">
+<a href="#about">About</a><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a href="#visit">Visit</a>
+</div></div></nav>
+
+<header class="hero"><div class="hero-inner">
+  <div class="logo-placeholder"><strong>First Class</strong><span>DOSA BAR · ALL DAY</span></div>
+  <div class="eyebrow">South Indian • Fresh • All Day</div>
+  <h1>Breakfast deserves First Class.</h1>
+  <p>Comforting South Indian favourites, crispy dosas and freshly made breakfast classics — served with a simple, modern dining experience.</p>
+  <a class="btn" href="#menu">Explore Sample Menu</a>
+</div></header>
+
+<section id="about"><div class="wrap"><div class="eyebrow">Our Story</div><h2>About First Class</h2>
+<div class="blank"></div></div></section>
+
+<section id="menu" class="alt"><div class="wrap"><div class="eyebrow">Sample Menu</div><h2>South Indian Breakfast</h2>
+<div class="menu">
+<div class="dish"><div><h3>Idli</h3><p>Soft steamed rice cakes with sambar & chutney.</p></div><div class="price">₹60</div></div>
+<div class="dish"><div><h3>Medu Vada</h3><p>Crispy lentil vada with sambar & chutney.</p></div><div class="price">₹70</div></div>
+<div class="dish"><div><h3>Plain Dosa</h3><p>Classic thin and crispy dosa.</p></div><div class="price">₹80</div></div>
+<div class="dish"><div><h3>Masala Dosa</h3><p>Crispy dosa filled with spiced potato masala.</p></div><div class="price">₹110</div></div>
+<div class="dish"><div><h3>Ghee Karam Dosa</h3><p>Dosa finished with ghee and house karam.</p></div><div class="price">₹130</div></div>
+<div class="dish"><div><h3>Onion Uttapam</h3><p>Thick, fluffy uttapam topped with onions.</p></div><div class="price">₹100</div></div>
+<div class="dish"><div><h3>Pongal</h3><p>Comforting rice and lentil pongal with chutney.</p></div><div class="price">₹90</div></div>
+<div class="dish"><div><h3>Puri</h3><p>Fluffy puris served with traditional potato curry.</p></div><div class="price">₹90</div></div>
+</div><p style="color:#777;font-size:12px;margin-top:18px">* Menu items and prices are placeholders and can be updated later.</p>
+</div></section>
+
+<section id="gallery"><div class="wrap"><div class="eyebrow">Gallery</div><h2>A Taste of First Class</h2><div class="blank"></div></div></section>
+
+<section id="visit" class="alt"><div class="wrap"><div class="eyebrow">Visit Us</div><h2>Come Say Hello</h2>
+<div class="info">
+<div class="card"><strong>Owner</strong><p>Sahitya</p></div>
+<div class="card"><strong>Phone</strong><p>+91 98765 43210</p></div>
+<div class="card"><strong>Opening Hours</strong><p>To be updated</p></div>
+<div class="card"><strong>Location</strong><p>To be updated</p></div>
+</div></div></section>
+
+<footer><strong>FIRST CLASS</strong><p>Dosa Bar · All Day</p><p>© 2026 First Class. All rights reserved.</p></footer>
+</body>
+</html>
